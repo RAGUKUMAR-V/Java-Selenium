@@ -19,7 +19,7 @@ public class Listener extends soucelabpractice implements ITestListener{
 	  }	
 	 
 @AfterMethod
-	public void onTestFailure(ITestResult result) {
+	public void onTestFailure(ITestResult result, WebDriver driver) {
 	 Listener lis=new Listener(driver);
 	File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	
