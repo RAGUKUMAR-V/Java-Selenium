@@ -1,4 +1,4 @@
-package javainterview;
+package javapractise;
 
 public class Armstrongnumber {
 	

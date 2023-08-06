@@ -1,4 +1,4 @@
-package newjavapractice;
+package javapractise;
 
 public class Arrayconcepts {
 
