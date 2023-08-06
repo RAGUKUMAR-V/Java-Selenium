@@ -12,8 +12,9 @@ public void removeduplicatenumbers(int[] number) {
 	
 	for(Integer nu:number) {
 		if(orig.add(nu)==true) {
-			orig.add(nu);
+			//orig.add(nu);
 			System.out.println(nu);
+			
 		}
 		
 	}

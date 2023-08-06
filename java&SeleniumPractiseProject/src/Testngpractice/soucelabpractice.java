@@ -102,14 +102,6 @@ public class soucelabpractice implements ITestListener  {
 		
 	
 	
-	File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	
-	try {
-		FileUtils.copyFile(file,new File("C:\\Users\\Ragukumar\\eclipse-workspace\\practiseproject\\target\\screenshot.png"));
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
 	
 	}
 

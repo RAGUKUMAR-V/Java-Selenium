@@ -1,6 +1,6 @@
 package javapractise;
 
-public class StringConcepts {
+public class volwelstouppercase {
 	
 	
 	public void methods(String name) {
@@ -28,7 +28,7 @@ public class StringConcepts {
 	public static void main(String[] args) {
 	
 		
-		StringConcepts concepts=new StringConcepts();
+		volwelstouppercase concepts=new volwelstouppercase();
 		concepts.methods("ragukumar");
 		
 		

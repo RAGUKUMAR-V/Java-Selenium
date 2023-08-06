@@ -12,13 +12,12 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 
 public class Listener extends soucelabpractice implements ITestListener{
-	WebDriver driver;
-	  public Listener(WebDriver driver) { 
-		 super.driver=driver;
-		  
-	  }	
+	
+	  WebDriver driver; public Listener(WebDriver driver) { super.driver=driver;
+	  
+	  }
 	 
-@AfterMethod
+
 	public void onTestFailure(ITestResult result, WebDriver driver) {
 	 Listener lis=new Listener(driver);
 	File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

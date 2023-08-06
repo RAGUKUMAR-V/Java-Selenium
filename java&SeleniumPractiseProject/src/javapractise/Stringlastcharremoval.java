@@ -10,16 +10,17 @@ import java.util.Set;
 
 public class Stringlastcharremoval {
 	String ss;
-	public static StringBuffer removelastcharacter(String givenstring) {
+	public static String removelastcharacter(String givenstring) {
 		 
 	StringBuffer buf=new StringBuffer(givenstring);	
 	
 		StringBuffer newstring=buf.deleteCharAt(buf.length()-1);
+		String news=String.valueOf(newstring);
 	
-		  return  newstring;	  
+		  return  news;	  
 	}
 	
-	public static String removelastcharacter(StringBuffer ns, int x) {
+	public static String removelastcharacter(String ns, int x) {
 		 
         
         String string=ns.substring(0, ns.length()-x);
@@ -35,7 +36,7 @@ public class Stringlastcharremoval {
 		Stringlastcharremoval prg=new Stringlastcharremoval();
 		
 	
-		StringBuffer latest=prg.removelastcharacter("Ragukumar");
+		String latest=prg.removelastcharacter("Ragukumar");
 		System.out.println(latest);
 		Stringlastcharremoval prg1=new Stringlastcharremoval();
 		String latest2=prg1.removelastcharacter(latest, 2);
