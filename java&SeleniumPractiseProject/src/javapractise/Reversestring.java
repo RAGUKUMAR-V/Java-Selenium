@@ -29,6 +29,19 @@ public class Reversestring {
 	Reversestring prog=new Reversestring();
 	prog.method1();
 
+	String s="ragu";
+	StringBuffer buff=new StringBuffer(s);
+	StringBuffer reversed=buff.reverse();
+	
+	System.out.println(reversed);
+	
+	int num=3;
+	int fac=num;
+	
+	for(int i=num-1;i>0;i--) {
+		fac=fac*i;
+	}
+	System.out.println(fac);
 	}
 
 }

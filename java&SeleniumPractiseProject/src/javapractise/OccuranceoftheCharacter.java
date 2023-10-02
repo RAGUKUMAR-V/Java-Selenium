@@ -23,8 +23,11 @@ public void removeduplicatenumbers(String name) {
 		}
 	}
 	
-	  Set mm=map.entrySet(); Iterator mp=mm.iterator(); while(mp.hasNext()) {
-	  Map.Entry m=(Map.Entry)mp.next(); System.out.print(m.getKey()+ " :");
+	  Set mm=map.entrySet(); 
+	  Iterator mp=mm.iterator(); 
+	  while(mp.hasNext()) {
+	  Map.Entry m=(Map.Entry)mp.next(); 
+	  System.out.print(m.getKey()+ " :");
 	  System.out.println(m.getValue());
 	  
 	  

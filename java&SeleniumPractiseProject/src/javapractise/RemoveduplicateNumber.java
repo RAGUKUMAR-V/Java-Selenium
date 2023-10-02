@@ -29,6 +29,7 @@ public void removeduplicatenumbers(int[] number) {
 
 		RemoveduplicateNumber program=new RemoveduplicateNumber();
 		
+		
 		int[] array= {1,1,2,2,2};
 		program.removeduplicatenumbers(array);
 

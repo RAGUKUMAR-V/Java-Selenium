@@ -4,7 +4,7 @@ public class SumOfTheNumberIsPalindrom {
 
 	public static void main(String[] args) {
 
-		Integer number = 373;
+		Integer number = 29;
 
 		String converted = String.valueOf(number);
 
@@ -26,7 +26,7 @@ public class SumOfTheNumberIsPalindrom {
 		}
 
 		if (reverse.equals(convertnumber)) {
-			System.out.println("Palindrom number :");
+			System.out.println("Palindrom number ");
 		} else {
 			System.out.println("Not a Palindrom number");
 		}

@@ -14,8 +14,8 @@ public class volwelstouppercase {
 					System.out.print(name.charAt(i));
 					
 			}else {
-				char letter=name.charAt(i);
-				String let=String.valueOf(letter);
+				//char letter=name.charAt(i);
+				String let=String.valueOf(name.charAt(i));
 				System.out.print(let.toUpperCase());
 				
 			}
