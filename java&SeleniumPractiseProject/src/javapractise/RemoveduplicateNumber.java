@@ -10,7 +10,7 @@ public void removeduplicatenumbers(int[] number) {
 	
 	Set<Integer> orig=new HashSet<Integer>();
 	
-	for(Integer nu:number) {
+	for(int nu:number) {
 		if(orig.add(nu)==true) {
 			//orig.add(nu);
 			System.out.println(nu);

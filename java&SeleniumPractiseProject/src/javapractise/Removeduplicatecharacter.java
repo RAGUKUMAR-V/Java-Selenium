@@ -12,24 +12,17 @@ public class Removeduplicatecharacter {
 		Set<Character> set=new HashSet<Character>(); 
 		for(Character ch:charac) {
 			if(set.add(ch)==true) {
-				
-				System.out.println(ch);
-			}
-			
-			
+				System.out.print(ch);			
+			}	
 		}
-		
-		
+			
 	}
-	
-	
-	
-	
+		
 	public static void main(String[] args) {
 	
 		
 	Removeduplicatecharacter prog=new Removeduplicatecharacter();
-	prog.method1("zoho");
+	prog.method1("ragukumar");
 
 	}
 

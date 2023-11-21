@@ -12,10 +12,10 @@ public class Reversestring {
 		System.out.println("Enter your string :");
 		String name=scan.next();
 		
-		char[] characters=name.toCharArray();
+		//char[] characters=name.toCharArray();
 		String rv="";
-		for(int i=characters.length-1;i>=0;i--) {
-			rv=rv+characters[i];	
+		for(int i=name.length()-1;i>=0;i--) {
+			rv=rv+name.charAt(i);	
 		}
 		System.out.println(rv);
 	}
@@ -23,7 +23,7 @@ public class Reversestring {
 	
 	
 	
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 	
 		
 	Reversestring prog=new Reversestring();
@@ -35,7 +35,7 @@ public class Reversestring {
 	
 	System.out.println(reversed);
 	
-	int num=3;
+	int num=5;
 	int fac=num;
 	
 	for(int i=num-1;i>0;i--) {

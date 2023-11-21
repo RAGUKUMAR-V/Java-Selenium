@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<listeners>
-		 <listener class-name="Testngpractice.Listener"/>
-		
-	</listeners>
-  <test thread-count="1" name="Test">
+<suite name="Suite" verbose="2" parallel="methods" thread-count="3">
+	
+  <test name="Test">
+	  <parameter name="Name" value="ragu"></parameter>
     <classes>
+		<class name="FileReadingandWriting.FileReading.java"></class>
      
-      <class name="Testngpractice.soucelabpractice"/>
-      <class name="Testngpractice.Listener"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test">
+	 <groups>
+		 <run>
+			 <include name="sanity"></include>
+		 </run>
+	 </groups>
+    <classes>
+		<class name="FileReadingandWriting.FileReading.java"></class>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

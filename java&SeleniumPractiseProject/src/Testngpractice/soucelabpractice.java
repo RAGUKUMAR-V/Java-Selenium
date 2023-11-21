@@ -33,7 +33,7 @@ public class soucelabpractice implements ITestListener  {
 
 	public WebDriver driver;
 	
-	@SuppressWarnings("deprecation")
+	
 	@Test
 	public void testing() throws InterruptedException {
 		
@@ -41,8 +41,7 @@ public class soucelabpractice implements ITestListener  {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(options);	
-		Listener lis= new Listener(driver);
-
+		
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);

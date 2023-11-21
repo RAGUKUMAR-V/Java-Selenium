@@ -6,6 +6,7 @@ public class volwelstouppercase {
 	public void methods(String name) {
 		
 		int leg=name.length();
+		
 		for(int i=0;i<leg;i++) {
 			
 				if(name.charAt(i)!='a' & name.charAt(i)!='e' & name.charAt(i)!='i' & name.charAt(i)!='o' & name.charAt(i)!='u'  ) {

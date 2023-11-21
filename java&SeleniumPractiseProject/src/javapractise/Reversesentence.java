@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Reversesentence {
 
 	
-	public void method1(String sen) {
+	public static void method1(String sen) {
 		/*
 		 * Scanner scan=new Scanner(System.in);
 		 * 
@@ -28,8 +28,8 @@ public class Reversesentence {
 	public static void main(String[] args) {
 	
 		
-	Reversesentence prog=new Reversesentence();
-	prog.method1("i love ragu");
+	//Reversesentence prog=new Reversesentence();
+	method1("i love ragu");
 
 	}
 

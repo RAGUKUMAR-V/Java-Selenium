@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practisepage.justpractice">
+      <class name="FileReadingandWriting.FileReading">
         <methods>
-          <include name="startedtesting"/>
+          <include name="parameterstest"/>
         </methods>
-      </class> <!-- practisepage.justpractice -->
+      </class> <!-- FileReadingandWriting.FileReading -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

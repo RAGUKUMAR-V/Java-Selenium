@@ -16,7 +16,7 @@ public class constructor extends constructor2{
 	int age1;
 	
 	
-	constructor(String name1,int age1){
+	 constructor(String name1,int age1){
 		name1=super.name;
 		age1=super.age;
 		

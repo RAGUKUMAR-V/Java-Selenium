@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T22:59:32 IST" name="Default suite" finished-at="2023-08-08T22:59:57 IST" duration-ms="24809">
+  <suite started-at="2023-10-18T23:17:19 IST" name="Default suite" finished-at="2023-10-18T23:17:26 IST" duration-ms="6817">
     <groups>
     </groups>
-    <test started-at="2023-08-08T22:59:32 IST" name="Default test" finished-at="2023-08-08T22:59:57 IST" duration-ms="24809">
-      <class name="practisepage.justpractice">
-        <test-method signature="startedtesting()[pri:0, instance:practisepage.justpractice@1623b78d]" started-at="2023-08-08T22:59:32 IST" name="startedtesting" finished-at="2023-08-08T22:59:57 IST" duration-ms="24765" status="PASS">
+    <test started-at="2023-10-18T23:17:19 IST" name="Default test" finished-at="2023-10-18T23:17:26 IST" duration-ms="6817">
+      <class name="FileReadingandWriting.FileReading">
+        <test-method signature="reading()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="reading" finished-at="2023-10-18T23:17:19 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startedtesting -->
-      </class> <!-- practisepage.justpractice -->
+        </test-method> <!-- reading -->
+        <test-method signature="writing()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="writing" finished-at="2023-10-18T23:17:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writing -->
+        <test-method signature="readingconfig()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="readingconfig" finished-at="2023-10-18T23:17:26 IST" depends-on-methods="FileReadingandWriting.FileReading.writing" duration-ms="6781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readingconfig -->
+      </class> <!-- FileReadingandWriting.FileReading -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
