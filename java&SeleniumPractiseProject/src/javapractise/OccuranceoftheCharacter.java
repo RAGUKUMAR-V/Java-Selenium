@@ -1,5 +1,7 @@
 package javapractise;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -34,13 +36,12 @@ public void removeduplicatenumbers(String name) {
 	  }
 	 
 	System.out.println(map);
+	
+	
+	Collections.max(null, null);
+	
 	}
 	
-
-
-
-	
-
 	public static void main(String[] args) {
 
 		OccuranceoftheCharacter program=new OccuranceoftheCharacter();
