@@ -22,14 +22,13 @@ public class countoftherepeatedcharactersinstring {
 		}
 		//System.out.println(count );
 			int maxcount=0;
-			String maxchar="";
+			
 			
 		  Set<Character> ww=count.keySet();
 		  for(char wor:ww) {
 			  if(count.get(wor)>maxcount) {
 				  maxcount=count.get(wor);
 				  
-				//  maxchar=maxchar+String.valueOf(wor);
 		  } }
 		  
 		  for(char wor:ww) {
@@ -45,7 +44,7 @@ public class countoftherepeatedcharactersinstring {
 	public static void main(String[] args) {
 	
 		
-		givenstring("gologle");
+		givenstring("i love you");
 				
 	}
 
