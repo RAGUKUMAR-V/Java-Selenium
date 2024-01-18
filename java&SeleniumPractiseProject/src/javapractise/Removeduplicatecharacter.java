@@ -10,8 +10,8 @@ public class Removeduplicatecharacter {
 	public void method1(String word) {
 		char[] charac=word.toCharArray();
 		Set<Character> set=new HashSet<Character>(); 
-		for(Character ch:charac) {
-			if(set.add(ch)==true) {
+		for(char ch:charac) {
+			if(set.add(ch)==false) {
 				System.out.print(ch);			
 			}	
 		}

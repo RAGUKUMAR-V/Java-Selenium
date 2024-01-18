@@ -5,7 +5,7 @@ public class OnlyStringReverse {
 
 	public static void main(String[] args) {
 
-		String s = "4321ra";
+		String s = "14ragu32";
 		String reverse = "";
 		String str = "";
 		for (int i = 0; i < s.length(); i++) {

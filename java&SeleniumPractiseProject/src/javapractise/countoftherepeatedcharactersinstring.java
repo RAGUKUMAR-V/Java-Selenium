@@ -44,7 +44,7 @@ public class countoftherepeatedcharactersinstring {
 	public static void main(String[] args) {
 	
 		
-		givenstring("i love you");
+		givenstring("aaccbbd");
 				
 	}
 
