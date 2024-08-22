@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-18T23:17:19 IST" name="Default suite" finished-at="2023-10-18T23:17:26 IST" duration-ms="6817">
+  <suite started-at="2024-08-22T12:58:51 IST" name="Default suite" finished-at="2024-08-22T12:59:07 IST" duration-ms="15489">
     <groups>
     </groups>
-    <test started-at="2023-10-18T23:17:19 IST" name="Default test" finished-at="2023-10-18T23:17:26 IST" duration-ms="6817">
-      <class name="FileReadingandWriting.FileReading">
-        <test-method signature="reading()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="reading" finished-at="2023-10-18T23:17:19 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-08-22T12:58:51 IST" name="Default test" finished-at="2024-08-22T12:59:07 IST" duration-ms="15489">
+      <class name="Testngpractice.RaguPractice">
+        <test-method signature="testing_testng_annotations()[pri:-3, instance:Testngpractice.RaguPractice@64e92d61]" started-at="2024-08-22T12:58:51 IST" name="testing_testng_annotations" finished-at="2024-08-22T12:58:51 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reading -->
-        <test-method signature="writing()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="writing" finished-at="2023-10-18T23:17:19 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- testing_testng_annotations -->
+        <test-method signature="get_suggested_options_from_googlesearch()[pri:-1, instance:Testngpractice.RaguPractice@64e92d61]" started-at="2024-08-22T12:58:51 IST" name="get_suggested_options_from_googlesearch" finished-at="2024-08-22T12:59:06 IST" duration-ms="14561" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writing -->
-        <test-method signature="readingconfig()[pri:0, instance:FileReadingandWriting.FileReading@7d8995e]" started-at="2023-10-18T23:17:19 IST" name="readingconfig" finished-at="2023-10-18T23:17:26 IST" depends-on-methods="FileReadingandWriting.FileReading.writing" duration-ms="6781" status="PASS">
+        </test-method> <!-- get_suggested_options_from_googlesearch -->
+        <test-method signature="close_browser()[pri:0, instance:Testngpractice.RaguPractice@64e92d61]" started-at="2024-08-22T12:59:06 IST" name="close_browser" finished-at="2024-08-22T12:59:07 IST" duration-ms="875" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readingconfig -->
-      </class> <!-- FileReadingandWriting.FileReading -->
+        </test-method> <!-- close_browser -->
+      </class> <!-- Testngpractice.RaguPractice -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

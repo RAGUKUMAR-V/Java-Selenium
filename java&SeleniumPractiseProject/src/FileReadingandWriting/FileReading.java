@@ -30,7 +30,7 @@ public class FileReading {
 			System.out.println(data);
 		}}
 		
-		@Test(groups= {"sanity"})
+		@Test(groups= "sanity")
 		public void writing() throws IOException {
 			
 			String filepath="E://New.txt/";
@@ -40,6 +40,7 @@ public class FileReading {
 			  BufferedWriter writer=new BufferedWriter(write);
 			  writer.write(content);
 			  writer.close();
+			  System.out.println("sanity groups");
 			 
 	}
 	

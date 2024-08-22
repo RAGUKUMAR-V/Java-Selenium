@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FileReadingandWriting.FileReading">
+      <class name="Testngpractice.myclass">
         <methods>
-          <include name="parameterstest"/>
+          <include name="invokebrowser"/>
         </methods>
-      </class> <!-- FileReadingandWriting.FileReading -->
+      </class> <!-- Testngpractice.myclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

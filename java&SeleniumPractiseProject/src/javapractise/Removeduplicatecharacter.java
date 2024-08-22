@@ -11,7 +11,7 @@ public class Removeduplicatecharacter {
 		char[] charac=word.toCharArray();
 		Set<Character> set=new HashSet<Character>(); 
 		for(char ch:charac) {
-			if(set.add(ch)==false) {
+			if(set.add(ch)==true) {
 				System.out.print(ch);			
 			}	
 		}

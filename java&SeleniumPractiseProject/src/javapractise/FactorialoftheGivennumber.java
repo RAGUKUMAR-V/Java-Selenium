@@ -17,13 +17,29 @@ public void factorialofgivennumber(int number) {
 	System.out.println(fact);
 }
 
+public static int fact(int n) {
+	
+	if(n<2) {
+		return n;
+	}
+	else {
+	return	fact(n-1)* n;
+	}
+	
+}
+
 
 	
 
 	public static void main(String[] args) {
 
-		FactorialoftheGivennumber program=new FactorialoftheGivennumber();
-		program.factorialofgivennumber(4);
+		/*
+		 * FactorialoftheGivennumber program=new FactorialoftheGivennumber();
+		 * program.factorialofgivennumber(4);
+		 */
+		
+		int ans=fact(6);
+		System.out.println(ans);
 
 	}
 
