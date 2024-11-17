@@ -15,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.ITestListener;
@@ -37,11 +38,12 @@ public class soucelabpractice implements ITestListener  {
 	@Test
 	public void testing() throws InterruptedException {
 		
-		WebDriverManager.chromiumdriver().setup();
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--remote-allow-origins=*");
-		driver = new ChromeDriver(options);	
-		
+		/*
+		 * WebDriverManager.chromiumdriver().setup(); ChromeOptions options = new
+		 * ChromeOptions(); options.addArguments("--remote-allow-origins=*"); driver =
+		 * new ChromeDriver(options);
+		 */
+		driver =new FirefoxDriver();
 		driver.get("https://www.saucedemo.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
